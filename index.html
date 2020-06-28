@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid19 Realtime Data</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u">
+</head>
+<body style="margin:0; padding:0;">
+    <div class="container">
+    <div class="card" style="width: 25rem; margin: auto;">
+        <div class="card-header" style="font-size: 24px; text-align: center;">
+          World
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" style="background-color: lightslategrey; color: whitesmoke;" id="w-confirmed"></li>
+          <li class="list-group-item" style="background-color: lightsalmon;" id="w-deaths"></li>
+          <li class="list-group-item" style="background-color: lightgreen;" id="w-recovered"></li>
+        </ul>
+      </div>
+
+
+      <div class="card" style="width: 25rem; margin: auto;">
+        <div class="card-header" style="font-size: 24px; text-align: center;">
+          India
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" style="background-color: lightslategrey; color: whitesmoke;"  id="i-confirmed"></li>
+          <li class="list-group-item" style="background-color: lightsalmon;" id="i-deaths"></li>
+          <li class="list-group-item" style="background-color: lightgreen;" id="i-recovered"></li>
+          <li class="list-group-item" style="background-color: lightsteelblue;" id="i-active"></li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
